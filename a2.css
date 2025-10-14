@@ -35,7 +35,7 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 120px;
     margin-bottom: 175px;
 }
 
@@ -63,4 +63,5 @@ a{
     width: 1150;
     height: 825;
 }
+
 
