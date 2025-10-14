@@ -48,6 +48,9 @@ body {
     margin-bottom: 175px;
 }
 
+button: hover{
+    cursor: pointer
+}
 a:visited{
     color: rgb(68, 157, 246);
 }
@@ -72,6 +75,7 @@ a{
     width: 1150;
     height: 825;
 }
+
 
 
 
