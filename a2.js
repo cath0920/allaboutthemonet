@@ -166,8 +166,13 @@ function Wircle(wx, wy, r, a){
         ctx.fill();
     }
 }
+   const refreshButton = document.getElementById("refreshButton");
 
+      function refreshPage() {
+        window.location.reload();
+      }
 
+      refreshButton.addEventListener("click", refreshPage);
     
 //basic setup
 
@@ -182,5 +187,6 @@ function setUpCanvas (){
     img.width=w+350;
     img.height=h+325;
 }
+
 
 console.log("this is assignment two of sctm-2005");
