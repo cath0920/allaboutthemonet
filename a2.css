@@ -35,16 +35,15 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
-    margin-bottom: 175px;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .center-button{
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-bottom: 175px;
 }
 
@@ -75,6 +74,7 @@ a{
     width: 1150;
     height: 825;
 }
+
 
 
 
