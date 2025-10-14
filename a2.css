@@ -1,0 +1,66 @@
+h1 {
+    color:beige;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 2.5px;
+}
+
+h2{
+    color:beige;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+p{
+    text-align: center;
+    font-family: monospace;
+    font-size: medium;
+    color: beige;
+    line-height: 20px ;
+}
+
+body {
+    background-color: hwb(0 0% 68%);
+}
+
+.center-block{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 175px;
+}
+
+a:visited{
+    color: rgb(68, 157, 246);
+}
+
+a{
+    color: rgb(200, 189, 238);
+}
+
+#canvas{
+    position: relative;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+    width: 800;
+    height: 500;
+}
+#frame{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 1150;
+    height: 825;
+}
+
