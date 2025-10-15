@@ -47,11 +47,17 @@ body {
     margin-bottom: 175px;
 }
 
-refreshButton: hover{
-    cursor: pointer
+#refreshButton: hover{
+    cursor: pointer;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    
 }
-a:visited{
+
+a: visited{
     color: rgb(68, 157, 246);
+    cursor: pointer;
 }
 
 a{
@@ -74,6 +80,7 @@ a{
     width: 1150;
     height: 825;
 }
+
 
 
 
